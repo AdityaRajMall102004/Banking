@@ -1,0 +1,151 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #6d597a;
+}
+
+/* Splash screen CSS */
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e4eff2 url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+
+/* Navbar CSS */
+.bg-light {
+    background-color: #f2e9e4 !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.8rem;
+    color: #5f6368 !important;
+    transition: color 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #039be5 !important;
+}
+
+.nav-link {
+    color: #5f6368 !important;
+    font-family: 'Noto Sans JP', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #f3f1f1;
+    color: #039be5 !important;
+}
+
+/* Hero content CSS */
+.hero-content {
+    height: 100vh;
+    background-color: #355070;
+    color: #ffffff;
+    padding: 3rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+.hero-img {
+    height: 70vh;
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+        display: none;
+    }
+}
+
+.get-started {
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color: #fff;
+    color: #039be5 !important;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.get-started:hover {
+    text-decoration: none;
+    background-color: #bfdff0;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Get-started-buttons CSS */
+.get-started-content {
+    height: 60vh;
+    background-color: #ff8a65;
+    border-radius: 42rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 25vh 0;
+}
+
+.get-started-content a {
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color: #039be5;
+    color: #fff !important;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.get-started-content a:hover {
+    background-color: #017ab6;
+    text-decoration: none;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer CSS */
+footer {
+    background-color: #f2e9e4;
+    padding: 1rem 0;
+    text-align: center;
+    color: #5f6368;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.social-icons {
+    padding: 0;
+}
+
+.social-icons li {
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+    transition: transform 0.3s;
+}
+
+.social-icons li:hover {
+    transform: scale(1.1);
+}
+
+.github {
+    color: #24292e;
+}
+
+.linkedin {
+    color: #0077b5;
+}
+
+.google {
+    color: #d31a09;
+}
+
+
